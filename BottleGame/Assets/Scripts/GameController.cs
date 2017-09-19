@@ -5,20 +5,13 @@ using UnityEngine.UI;
 public class GameController : MonoBehaviour {
 
 	public GameObject Bottle;
+	public List <AnimationClip> anim =new List <AnimationClip>();
 
-	public void RotateBottle ()
+	public void StartAnimation ()
 	{
-		Bottle.GetComponent<Animation> ().Play ("+315");
+		int rand = Random.Range (0, anim.Count);
+		Debug.Log (rand);
+		Bottle.GetComponent<Animation> ().Play (anim[rand].name);
 	}
 
-
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
 }

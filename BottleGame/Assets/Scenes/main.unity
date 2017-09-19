@@ -185,7 +185,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 521783052}
-        m_MethodName: RotateBottle
+        m_MethodName: StartAnimation
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -438,6 +438,23 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Bottle: {fileID: 375242882}
+  anim:
+  - {fileID: 7400000, guid: d147fb035d532104d8edc8ba43585907, type: 2}
+  - {fileID: 7400000, guid: 89800eba58190324b9d3d5d875f133b4, type: 2}
+  - {fileID: 7400000, guid: e5111a37f9fbd9746b5c794cb086b7de, type: 2}
+  - {fileID: 7400000, guid: 98573ff73980ddf41b8388f052b93b02, type: 2}
+  - {fileID: 7400000, guid: 653eaad650e82a8499686b278491c87a, type: 2}
+  - {fileID: 7400000, guid: fd571f07ec8e6d94dbca4249688d000d, type: 2}
+  - {fileID: 7400000, guid: f5720cf2fef4c804dbcff923d9752c8d, type: 2}
+  - {fileID: 7400000, guid: 080fe1225fc14dc4585940dca29b1114, type: 2}
+  - {fileID: 7400000, guid: 5352686b9707f6848900881e7c11fa84, type: 2}
+  - {fileID: 7400000, guid: 9f0b547e834eb06418a334aa11118b2d, type: 2}
+  - {fileID: 7400000, guid: 296b2efcb75b1b04e95a5153145cd00c, type: 2}
+  - {fileID: 7400000, guid: 21c49f3bcfa058c43a606709ee285ce6, type: 2}
+  - {fileID: 7400000, guid: 6bcbf6e828ea13b4f801dcbf3220782a, type: 2}
+  - {fileID: 7400000, guid: cf445901c9aa6d94e90149fc2f2e57a7, type: 2}
+  - {fileID: 7400000, guid: 383d9234bf51a6049bf48401c7a611a0, type: 2}
+  - {fileID: 7400000, guid: 4e7272556441db14b9f2e8117d68026c, type: 2}
 --- !u!1 &715041037
 GameObject:
   m_ObjectHideFlags: 0
