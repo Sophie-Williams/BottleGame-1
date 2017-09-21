@@ -6,12 +6,16 @@ public class GameController : MonoBehaviour {
 
 	public GameObject Bottle;
 	public List <AnimationClip> anim =new List <AnimationClip>();
+	public List <string> wishString = new List <string> ();
+	public Text wishTextComponent;
 
 	public void StartAnimation ()
 	{
-		int rand = Random.Range (0, anim.Count);
-		Debug.Log (rand);
-		Bottle.GetComponent<Animation> ().Play (anim[rand].name);
+		int randAnim = Random.Range (0, anim.Count);
+		int randString = Random.Range (0, wishString.Count);
+		Debug.Log (randString);
+		Bottle.GetComponent<Animation> ().Play (anim[randAnim].name);
+		wishTextComponent.text = wishString [randString];
 	}
 
 }
