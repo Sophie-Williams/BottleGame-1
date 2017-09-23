@@ -376,7 +376,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.5588235, g: 0.5300605, b: 0.5300605, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -457,9 +457,15 @@ MonoBehaviour:
   - {fileID: 7400000, guid: 4e7272556441db14b9f2e8117d68026c, type: 2}
   wishTextComponent: {fileID: 2109705370}
   wishString:
-  - Text 1
-  - Text 2
-  - Text 3
+  - "\u0421\u043D\u0438\u043C\u0438 \u0441 \u0441\u0435\u0431\u044F \u0414\u0412\u0410
+    \u044D\u043B\u0435\u043C\u0435\u043D\u0442\u0430 \u043E\u0434\u0435\u0436\u0434\u044B"
+  - "\u041D\u0430\u043F\u0438\u0448\u0438 \u041F\u041E\u041F\u041E\u0419 \u0432 \u0432\u043E\u0437\u0434\u0443\u0445\u0435
+    \u043F\u043E\u043B\u043D\u043E\u0435 \u0438\u043C\u044F \u043B\u044E\u0431\u043E\u0433\u043E
+    \u0447\u0435\u043B\u043E\u0432\u0435\u043A\u0430 \u0432 \u0432\u0430\u0448\u0435\u0439
+    \u043A\u043E\u043C\u043F\u0430\u043D\u0438\u0438"
+  - "\u0412\u044B\u043F\u0435\u0439 \u0441\u0442\u0430\u043A\u0430\u043D \u0432\u043E\u0434\u044B
+    \u0431\u0435\u0437 \u043F\u0440\u0438\u043C\u0435\u043D\u0435\u043D\u0438\u044F
+    \u0440\u0443\u043A"
   - 
   - 
   - 
@@ -773,10 +779,10 @@ RectTransform:
   m_Father: {fileID: 19028576}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: 92, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1472223044
 MonoBehaviour:
@@ -798,19 +804,19 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 23
+    m_Font: {fileID: 12800000, guid: a4c576d4a7de4e8439d3f2f2aa0a88eb, type: 3}
+    m_FontSize: 21
     m_FontStyle: 0
-    m_BestFit: 0
+    m_BestFit: 1
     m_MinSize: 0
     m_MaxSize: 40
-    m_Alignment: 1
+    m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u041A\u0440\u0443\u0442\u0438\n"
+  m_Text: "\u041A\u0440\u0443\u0442\u0438"
 --- !u!222 &1472223045
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -934,7 +940,7 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: a4c576d4a7de4e8439d3f2f2aa0a88eb, type: 3}
     m_FontSize: 14
     m_FontStyle: 0
     m_BestFit: 1
