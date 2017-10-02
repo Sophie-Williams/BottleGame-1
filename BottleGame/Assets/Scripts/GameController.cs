@@ -15,7 +15,7 @@ public class GameController : MonoBehaviour {
 	public void StartAnimation ()
 	{
 		int randAnim = Random.Range (0, 16);
-		int randString = Random.Range (0, 47);
+		int randString = Random.Range (0, 48);
 		Debug.Log (randString);
 		countOfPress++;
 		countPress.text = countOfPress.ToString();
