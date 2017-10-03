@@ -11,16 +11,17 @@ public class GameController : MonoBehaviour {
 	public string[] wishString = new string[100];
 	private int countOfPress;
 	public Text countPress;
+	private int randString;
 
 	public void StartAnimation ()
 	{
 		int randAnim = Random.Range (0, 16);
-		int randString = Random.Range (0, 48);
+		randString = Random.Range (0, 50);
 		Debug.Log (randString);
 		countOfPress++;
 		countPress.text = countOfPress.ToString();
 		Bottle.GetComponent<Animation> ().Play (anim[randAnim].name);
 		wishTextComponent.text = wishString [randString];
 	}
-
+		
 }
